@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack Project</title>    
+</head>
+<body>
+    <nav>
+        <h1>Images</h1>
+    </nav>
+    <div class="container">
+    <ul id="myImg">
+        <li><img src="https://picsum.photos/200?random=1" alt=""></li>
+        <li><img src="https://picsum.photos/200?random=2" alt=""></li>
+        <li><img src="https://picsum.photos/200?random=3" alt=""></li> <br>
+        <li><img src="https://picsum.photos/200?random=4" alt=""></li>
+        <li><img src="https://picsum.photos/200?random=5" alt=""></li>
+        <li><img src="https://picsum.photos/200?random=6" alt=""></li> <br>
+        <li><img src="https://picsum.photos/200?random=7" alt=""></li>
+        <li><img src="https://picsum.photos/200?random=8" alt=""></li>
+        <li><img src="https://picsum.photos/200?random=9" alt=""></li>
+    </ul>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+</body>
+<script type="module" src="./dist/main.js"></script>
+</html>
